@@ -1,0 +1,140 @@
+body{
+    background-image:url(black.avif) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.stopwatch{
+    display: flex;
+    margin-top:150px;
+    margin-left:550px;
+    align-items: center;
+   
+}
+header{
+    top: 120px;
+    left: 780px;
+    position: absolute;
+    text-align: center;
+    color:rgb(255, 0, 221);
+    font-size: 60px;
+}
+.timer_display{
+    padding-top:80px;
+    color:aliceblue;
+    text-align: center;
+    box-sizing: border-box;
+    position: absolute;
+    top:200px;
+    width:700px;
+    font-size:90px;
+    justify-content: center;
+    display: block;
+
+
+}
+.action{
+    margin:700px auto 50px 100px ;
+    position: absolute;
+    top: 0;
+    display:flex;
+    
+    
+}
+ul{
+    color: #ffffff;
+    position: absolute;
+    border:1px solid black;
+    display:block;
+    width:200px;
+    height:400px;
+    top:100px;
+    left:130px;
+    float: left;
+    font-size:40px;
+}
+#startTimer{
+    transform: translate(90px,-210px);
+    border-radius:40px;
+    cursor: pointer;
+    font-size:20px;
+    font-style: italic;
+    overflow:none;
+    border:1px solid white;
+    width:150px;
+    height:80px;
+    color:rgb(255, 0, 221);
+    background-color: black;
+
+}
+#startTimer:hover{
+    filter:drop-shadow(0 0 10px rgb(255,0,221));
+    
+}
+#pauseTimer{
+    transform: translate(30px,-210px);
+    border-radius:100%;
+    cursor: pointer;
+    font-size:20px;
+    overflow:none;
+    border:1px solid white;
+    width:90px;
+    height:80px;
+    color:rgb(255, 0, 221);
+    background-color: black;
+}
+#pauseTimer:hover{
+    filter:drop-shadow(0 0 10px rgb(255,0,221));
+    color: #ffffff;
+    background-color: rgb(255, 0, 221);
+}
+#resetTimer{
+    transform: translate(150px,-210px);
+    border-radius:100%;
+    cursor: pointer;
+    font-size:20px;
+    overflow:none;
+    border:1px solid white;
+    width:90px;
+    height:80px;
+    color:rgb(255, 0, 221);
+    background-color: black;
+}
+#resetTimer:hover{
+    filter:drop-shadow(0 0 10px rgb(255,0,221));
+    color: #ffffff;
+    background-color: rgb(255, 0, 221);
+}
+#lap{
+    transform: translate(-270px,-80px);
+    border-radius:40px;
+    cursor: pointer;
+    font-size:20px;
+    font-style: italic;
+    overflow:none;
+    border:1px solid white;
+    width:170px;
+    height:80px;
+    color:rgb(255, 0, 221);
+    background-color: black;
+
+}
+#lap:hover{
+    filter:drop-shadow(0 0 10px rgb(255,0,221));
+}
+#resetlap{
+    transform: translate(-220px,-80px);
+    border-radius:40px;
+    cursor: pointer;
+    font-size:20px;
+    font-style: italic;
+    overflow:none;
+    border:1px solid white;
+    width:170px;
+    height:80px;
+    color:rgb(255, 0, 221);
+    background-color: black;
+
+}
+#resetlap:hover{
+    filter:drop-shadow(0 0 10px rgb(255,0,221));
+}

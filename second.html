@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TASK 2</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="second.css">
+</head>
+<body>
+    <header>Stop Watch</header>
+    <div class="stopwatch" id="display">
+        
+        
+        <div class="timer_display">
+            00 : 00 : 00 : 00
+        </div>
+            <ul class="laps"></ul>
+        
+            <div class="action">
+                <button id="pauseTimer" class="fa fa-pause" onclick="pause()"></button>
+                <button id="startTimer" onclick="start()">START</button>
+                <button id="resetTimer" class="fa fa-refresh" onclick="reset()"></button>
+                <button id="lap" onclick="lap()">LAP</button>
+                <button id="resetlap" onclick="resetLap()">RESET LAP</button>
+            </div>
+    </div>
+    
+
+
+    <script src="second.js"></script>
+</body>
+</html>
